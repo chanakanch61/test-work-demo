@@ -1,0 +1,179 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: #1348BA;
+  width: calc(100% -20px);
+  Height: 50px;
+  font-family: 'Kanit', sans-serif;
+  display: flex;
+  object-fit: cover;
+
+}
+.navbar .nav_side div{
+  width: 51px;
+  height: 60px;
+  background-color:white;
+  margin:0px;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom: white;
+  box-shadow: 0 0 10px;
+}
+
+.navbar .rightSide{
+  flex: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.navbar .rightSide .Link{
+  height: auto !important;
+}
+.navbar .rightSide .Link a{
+  text-decoration: none;
+  color: white;
+  font: size 30px;
+  margin-right: 15;
+  display: flex;
+  position: absolute;
+  top: 1.2%;
+  left: 95%;
+
+}
+
+.search{
+  position: relative;
+  top: 70px;
+  max-height: 150px;
+  flex: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -9%;
+
+}
+.search input{
+  width: 500px;
+  height: 30px;
+  border: 1px solid #1348BA;
+  border-radius:20px;
+  padding-left: 15px;
+  font-size: 16px;
+  
+
+}
+.navbar .rightSide .profile img{
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 92%;
+
+}
+
+.navbar .logo img{
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.option  select{
+  margin: 78px;
+  right: 500px;
+  width: 300px;
+  height: 35px;
+  border: 1px solid #134B8A;
+  border-radius: 20px;
+  outline: none;
+  position: absolute;
+  padding-left: 15px;
+  font-size: 16px;
+  color: gray;
+}
+.index_place{
+  position: absolute;
+  top:0;
+  left: 60px;
+  font-size:18px;
+  margin: 40px;
+}
+.navbarside{
+  background-color: white;
+  max-width: 50px;
+  Height: 90%;
+  font-family: 'Kanit', sans-serif;
+  object-fit: cover;
+  padding-left: 0%;
+  border:1px solid gray;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 0 10px;
+}
+.navbarside .nav1_side div{
+  width: 50px;
+  height: 60px;
+  background-color:white;
+  margin:0px;
+  cursor: pointer;
+  border-bottom: white;
+  box-shadow: 0 0 10px;
+  margin-top: 10px;
+  
+}
+.navbarside .nav1_side p{
+  width: 50px;
+  height: 60px;
+  margin:0px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: -20px;
+  
+}
+
+.place_list{
+  position: absolute;
+  margin: 0px;
+  left: 5%;
+  top: 15%;
+  
+}
+.place_list .box{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200%;
+  box-shadow: 0 2px 0;
+
+}
+.place_list .box .pic{
+  position: relative;
+  left: 10px;
+  bottom: -5px;
+}
+.place_list .box .name_place{
+  position: relative;
+  left: 70px;
+  bottom: 50px;
+
+}
+.place_list .box .pic_list{
+  position: relative;
+  left: 10px;
+  top: -25px;
+}
+.place_list .rating{
+  position: relative;
+  left: 90%;
+  bottom: 50px;
+}
+
